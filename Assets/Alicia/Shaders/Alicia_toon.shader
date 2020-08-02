@@ -143,11 +143,11 @@ Pass{
 
 		#if UNITY_REVERSED_Z
 		{
-			o.pos.z -= 0.0001 / o.pos.w;
+			o.pos.z -= 0.001 / o.pos.w;
 		}
 		#else
 		{
-			o.pos.z += 0.0001 / o.pos.w;
+			o.pos.z += 0.001 / o.pos.w;
 		}
 		#endif
 

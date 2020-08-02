@@ -421,9 +421,31 @@ Prefab:
       propertyPath: completedSDKPipeline
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 114727326718215030, guid: ddc59a72d1c4a4f4386ea772ab4ec3c4,
+        type: 2}
+      propertyPath: MouthOpenBlendShapeName
+      value: -none-
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ddc59a72d1c4a4f4386ea772ab4ec3c4, type: 2}
   m_IsPrefabParent: 0
+--- !u!1 &1754272100 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 1791113575387764, guid: ddc59a72d1c4a4f4386ea772ab4ec3c4,
+    type: 2}
+  m_PrefabInternal: {fileID: 1754272099}
+--- !u!114 &1754272101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1754272100}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 229740497, guid: 4ecd63eff847044b68db9453ce219299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  contentType: 0
 --- !u!4 &1754272104 stripped
 Transform:
   m_PrefabParentObject: {fileID: 4526712103577190, guid: ddc59a72d1c4a4f4386ea772ab4ec3c4,
