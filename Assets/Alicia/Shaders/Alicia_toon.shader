@@ -139,8 +139,18 @@ Pass{
     	float3 norm = mul (UNITY_MATRIX_MV,float4(v.normal,0));
     	float2 offset = TransformViewToProjection(norm.xyz);
 		
-	    o.pos.xy +=  _OutlineWidth/100 * offset;
-	    o.pos.z += 0.0001 / o.pos.w;
+		o.pos.xy +=  _OutlineWidth/100 * offset;
+
+		#if UNITY_REVERSED_Z
+		{
+			o.pos.z -= 0.0001 / o.pos.w;
+		}
+		#else
+		{
+			o.pos.z += 0.0001 / o.pos.w;
+		}
+		#endif
+
 		return o;
 	}
 	
