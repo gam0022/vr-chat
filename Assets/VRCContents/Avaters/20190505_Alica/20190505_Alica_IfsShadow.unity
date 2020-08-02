@@ -414,7 +414,7 @@ Prefab:
     - target: {fileID: 114303260176425606, guid: ddc59a72d1c4a4f4386ea772ab4ec3c4,
         type: 2}
       propertyPath: blueprintId
-      value: avtr_7126f578-7962-4357-949c-8d8249014eb7
+      value: avtr_6d23679c-0a3b-418a-a926-966bfadc007e
       objectReference: {fileID: 0}
     - target: {fileID: 114303260176425606, guid: ddc59a72d1c4a4f4386ea772ab4ec3c4,
         type: 2}
