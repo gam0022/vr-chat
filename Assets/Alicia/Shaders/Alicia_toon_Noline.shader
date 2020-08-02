@@ -99,9 +99,14 @@ Pass{
     	
     	//comment : color out
     	half4 outColor;
-    	outColor.rgb = texcol.rgb * cel.rgb * (_LightColor0.rgb);
-    	outColor.rgb += (lightColor * specWeight.rgb)  + rimcol.rgb;
-    	outColor.a = 1.0;
+		outColor.rgb = texcol.rgb * cel.rgb;
+
+		// Directional Light
+		if (_WorldSpaceLightPos0.w > 0) {
+	        outColor.rgb *= _LightColor0.rgb;
+		}
+ 		outColor.rgb += (lightColor * specWeight.rgb)  + rimcol.rgb;
+		outColor.a = 1.0;
     	
     	return outColor;
 	}
