@@ -7,7 +7,7 @@ Material:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_Name: Alicia_hair_trans
-  m_Shader: {fileID: 4800000, guid: 1a0fc9934a331de409bcb9fe51e9a933, type: 3}
+  m_Shader: {fileID: 4800000, guid: 0485e6c05d8bcf644aca909e97de92e1, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
