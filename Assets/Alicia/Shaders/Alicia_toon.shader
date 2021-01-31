@@ -113,6 +113,7 @@ Shader "Alicia/Alicia_toon"
 
                 outColor.rgb += (lightColor * specWeight.rgb) + rimcol.rgb;
                 outColor.a = 1.0;
+                outColor.rgb *= 0.2;
                 
                 return outColor;
             }

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
@@ -436,7 +436,7 @@ Prefab:
     - target: {fileID: 114303260176425606, guid: ddc59a72d1c4a4f4386ea772ab4ec3c4,
         type: 2}
       propertyPath: blueprintId
-      value: avtr_03202f84-32b3-4ce8-8b55-7a7c9d9cb768
+      value: avtr_90e44fa5-f702-47c0-9f22-d804f9c07f74
       objectReference: {fileID: 0}
     - target: {fileID: 114303260176425606, guid: ddc59a72d1c4a4f4386ea772ab4ec3c4,
         type: 2}
